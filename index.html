@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Grupo 2 Salón 203 — Influenza Centroamérica</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="bg-wave"></div>
+<div class="bg-grid"></div>
+<div class="aurora"></div>
+
+<svg class="epicurve-svg" viewBox="0 0 1200 400" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="curveFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#33C6E8" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#33C6E8" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path class="tick" d="M0 350 H1200"/><path class="tick" d="M0 300 H1200"/><path class="tick" d="M0 250 H1200"/>
+  <path class="fill" d="M0 380 C 80 340, 140 200, 220 220 C 300 240, 340 150, 420 130 C 500 110, 560 260, 640 280 C 720 300, 780 180, 860 160 C 940 140, 1000 300, 1080 320 C 1140 335, 1170 300, 1200 310 L1200 400 L0 400 Z"/>
+  <path class="line" d="M0 380 C 80 340, 140 200, 220 220 C 300 240, 340 150, 420 130 C 500 110, 560 260, 640 280 C 720 300, 780 180, 860 160 C 940 140, 1000 300, 1080 320 C 1140 335, 1170 300, 1200 310"/>
+  <path class="line2" d="M0 360 C 100 330, 180 300, 260 290 C 380 275, 460 240, 560 250 C 660 260, 740 230, 840 220 C 940 210, 1020 260, 1120 270 C 1160 274, 1180 270, 1200 272"/>
+</svg>
+
+<svg class="virion v1" viewBox="0 0 100 100"><circle class="core" cx="50" cy="50" r="26"/>
+  <g class="spike">
+    <line x1="50" y1="24" x2="50" y2="8"/><line x1="72" y1="33" x2="84" y2="22"/><line x1="76" y1="50" x2="94" y2="50"/>
+    <line x1="72" y1="67" x2="84" y2="78"/><line x1="50" y1="76" x2="50" y2="92"/><line x1="28" y1="67" x2="16" y2="78"/>
+    <line x1="24" y1="50" x2="6" y2="50"/><line x1="28" y1="33" x2="16" y2="22"/>
+  </g>
+  <circle class="tip" cx="50" cy="8" r="2.4"/><circle class="tip" cx="84" cy="22" r="2.4"/><circle class="tip" cx="94" cy="50" r="2.4"/>
+  <circle class="tip" cx="84" cy="78" r="2.4"/><circle class="tip" cx="50" cy="92" r="2.4"/><circle class="tip" cx="16" cy="78" r="2.4"/>
+  <circle class="tip" cx="6" cy="50" r="2.4"/><circle class="tip" cx="16" cy="22" r="2.4"/>
+</svg>
+<svg class="virion v2" viewBox="0 0 100 100"><circle class="core" cx="50" cy="50" r="26"/>
+  <g class="spike">
+    <line x1="50" y1="24" x2="50" y2="8"/><line x1="72" y1="33" x2="84" y2="22"/><line x1="76" y1="50" x2="94" y2="50"/>
+    <line x1="72" y1="67" x2="84" y2="78"/><line x1="50" y1="76" x2="50" y2="92"/><line x1="28" y1="67" x2="16" y2="78"/>
+  </g>
+  <circle class="tip" cx="50" cy="8" r="2.4"/><circle class="tip" cx="84" cy="22" r="2.4"/><circle class="tip" cx="94" cy="50" r="2.4"/>
+</svg>
+<svg class="virion v3" viewBox="0 0 100 100"><circle class="core" cx="50" cy="50" r="26"/>
+  <g class="spike"><line x1="50" y1="24" x2="50" y2="8"/><line x1="76" y1="50" x2="94" y2="50"/><line x1="50" y1="76" x2="50" y2="92"/><line x1="24" y1="50" x2="6" y2="50"/></g>
+</svg>
+
+<div class="cover-container">
+  <header class="masthead">
+    <div class="masthead-crest">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK2zdr10V8hG9_JA7ubskVpDQodWxJGj74YAagiMt4-zfoTcVf12Bj8IL6&s=10" alt="Escudo USAC">
+      <span>San Carlos de Guatemala</span>
+    </div>
+    <div class="masthead-mid">
+      <p class="masthead-line">Facultad de Ciencias Económicas — curso de Econometría, salón 203</p>
+      <div class="masthead-rule"></div>
+    </div>
+    <div class="masthead-crest">
+      <img src="https://e7.pngegg.com/pngimages/477/117/png-clipart-facultad-de-ciencias-economicas-universidad-de-san-carlos-de-guatemala-stony-brook-university-school-of-medicine-business-administration-science-people.png" alt="Escudo Facultad de Ciencias Económicas">
+      <span>Ciencias Económicas</span>
+    </div>
+  </header>
+
+  <div class="emblems">
+    <div class="emblem" title="Virión de influenza estilizado">
+      <svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="28" fill="none" stroke="var(--flu-violet)" stroke-width="2"/>
+        <g stroke="var(--flu-cyan)" stroke-width="1.6"><line x1="50" y1="20" x2="50" y2="8"/><line x1="78" y1="35" x2="90" y2="27"/><line x1="78" y1="65" x2="90" y2="73"/><line x1="50" y1="80" x2="50" y2="92"/><line x1="22" y1="65" x2="10" y2="73"/><line x1="22" y1="35" x2="10" y2="27"/></g></svg>
+      <span>Virión</span>
+    </div>
+    <div class="emblem" title="Curva epidemiológica semanal">
+      <svg viewBox="0 0 100 100"><polyline points="8,70 24,55 38,62 54,30 68,48 84,20" fill="none" stroke="var(--flu-cyan)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="84" cy="20" r="3" fill="var(--flu-amber)"/></svg>
+      <span>Serie semanal</span>
+    </div>
+    <div class="emblem" title="Vigilancia regional FluNet">
+      <svg viewBox="0 0 100 100"><circle cx="30" cy="35" r="7" fill="var(--flu-cyan)"/><circle cx="65" cy="25" r="7" fill="var(--flu-violet)"/><circle cx="75" cy="65" r="7" fill="var(--flu-amber)"/><circle cx="30" cy="70" r="7" fill="var(--emerald)"/><line x1="30" y1="35" x2="65" y2="25" stroke="var(--mist)" stroke-width="1.2"/><line x1="65" y1="25" x2="75" y2="65" stroke="var(--mist)" stroke-width="1.2"/><line x1="75" y1="65" x2="30" y2="70" stroke="var(--mist)" stroke-width="1.2"/><line x1="30" y1="70" x2="30" y2="35" stroke="var(--mist)" stroke-width="1.2"/></svg>
+      <span>Red FluNet</span>
+    </div>
+  </div>
+
+  <h1 class="headline">
+    Circulación semanal de influenza en Centroamérica
+    <span class="headline-dek">Análisis de factores epidemiológicos y estacionales con datos oficiales de FluNet (OMS), 2024–2025</span>
+  </h1>
+
+  <div class="stat-strip">
+    <div class="stat"><span class="stat-num">FluNet</span><span class="stat-label">Fuente oficial (OMS)</span></div>
+    <div class="stat"><span class="stat-num">2024–2025</span><span class="stat-label">Periodo semanal analizado</span></div>
+    <div class="stat"><span class="stat-num">Grupo 2</span><span class="stat-label">Salón 203, Econometría</span></div>
+  </div>
+
+  <div class="roster">
+    <p class="roster-title">Equipo de trabajo</p>
+    <ol class="roster-list">
+      <li><span class="roster-carnet">201609489</span><span class="roster-name">Sergio Fernando Anzueto Mairen</span></li>
+      <li><span class="roster-carnet">201803614</span><span class="roster-name">Noe Ariel Martínez Veliz</span></li>
+      <li><span class="roster-carnet">201803886</span><span class="roster-name">Angela Carolina Cubur Gallina</span></li>
+      <li><span class="roster-carnet">202104694</span><span class="roster-name">William Armando Raxtun Cumes</span></li>
+      <li><span class="roster-carnet">202107120</span><span class="roster-name">Kevin Steve Oliva Díaz</span></li>
+      <li><span class="roster-carnet">202107330</span><span class="roster-name">María José Echeverría Castellanos</span></li>
+      <li><span class="roster-carnet">202302570</span><span class="roster-name">Allan Ivan Jolón González</span></li>
+    </ol>
+  </div>
+
+  <footer class="cover-footer">
+    <span>Guatemala</span><span class="footer-sep"></span><span>Segundo parcial de Econometría</span>
+  </footer>
+
+  <div class="scroll-hint"></div>
+</div>
+
+<div class="deck">
+
+  <button id="fullscreenBtn" class="fullscreen-icon" title="Pantalla completa">⛶</button>
+
+  <section class="slide active hero-slide">
+    <div class="slide-inner hero-wide">
+      <div class="slide-card hero-card">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <span class="hero-badge"><i class="dot"></i>Investigación · Grupo 2, Salón 203</span>
+            <h1 class="hero-title">Circulación semanal de <span class="grad">influenza</span> en Centroamérica</h1>
+            <p class="hero-sub">Un análisis econométrico de cómo la estacionalidad, los subtipos virales circulantes y la cobertura de reporte explican las variaciones semanales en los casos confirmados, con datos oficiales de FluNet (OMS), 2024–2025.</p>
+            <div class="hero-cycle">
+              <span>① Estacionalidad como proxy climático y viral</span>
+              <span>② Subtipos A(H1N1)2009 y A(H3N2)</span>
+              <span>③ Cobertura regional del sistema de reporte</span>
+            </div>
+            <div class="hero-stats">
+              <div class="hero-stat"><span class="n">105</span><span class="l">Observaciones semanales</span></div>
+              <div class="hero-stat"><span class="n">7</span><span class="l">Países centroamericanos</span></div>
+              <div class="hero-stat"><span class="n">R² .9566</span><span class="l">Ajuste del modelo (MCO)</span></div>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <svg class="hero-orb" viewBox="0 0 200 200">
+              <defs>
+                <radialGradient id="virionBody" cx="38%" cy="34%" r="70%">
+                  <stop offset="0%" stop-color="#EAF9FF"/>
+                  <stop offset="35%" stop-color="#8FE3F5"/>
+                  <stop offset="70%" stop-color="#33C6E8"/>
+                  <stop offset="100%" stop-color="#146785"/>
+                </radialGradient>
+                <radialGradient id="virionGlow" cx="50%" cy="50%" r="50%">
+                  <stop offset="60%" stop-color="#33C6E8" stop-opacity="0"/>
+                  <stop offset="100%" stop-color="#33C6E8" stop-opacity="0.25"/>
+                </radialGradient>
+              </defs>
+              <circle class="ring" cx="100" cy="100" r="92"/>
+              <circle class="halo" cx="100" cy="100" r="70"/>
+              <g class="spikes">
+                <line x1="140.0" y1="98.5" x2="165.5" y2="97.6"/>
+                <line x1="139.0" y1="108.9" x2="167.6" y2="115.4"/>
+                <line x1="134.4" y1="120.4" x2="159.4" y2="135.3"/>
+                <line x1="124.0" y1="132.0" x2="138.8" y2="151.8"/>
+                <line x1="113.0" y1="137.8" x2="123.4" y2="168.4"/>
+                <line x1="102.3" y1="139.9" x2="104.1" y2="170.2"/>
+                <line x1="87.0" y1="137.8" x2="78.0" y2="164.3"/>
+                <line x1="79.7" y1="134.4" x2="63.1" y2="162.5"/>
+                <line x1="69.5" y1="125.9" x2="50.3" y2="142.1"/>
+                <line x1="61.2" y1="109.8" x2="36.2" y2="116.2"/>
+                <line x1="60.0" y1="98.8" x2="32.3" y2="98.0"/>
+                <line x1="61.0" y1="91.2" x2="37.0" y2="85.7"/>
+                <line x1="68.6" y1="75.3" x2="46.3" y2="57.8"/>
+                <line x1="77.1" y1="67.2" x2="60.7" y2="43.8"/>
+                <line x1="90.0" y1="61.3" x2="82.3" y2="31.3"/>
+                <line x1="100.6" y1="60.0" x2="101.1" y2="30.8"/>
+                <line x1="114.2" y1="62.6" x2="123.7" y2="37.5"/>
+                <line x1="120.9" y1="65.9" x2="135.5" y2="41.8"/>
+                <line x1="130.6" y1="74.2" x2="152.6" y2="55.6"/>
+                <line x1="138.5" y1="89.0" x2="168.9" y2="80.3"/>
+              </g>
+              <g class="tips">
+                <circle cx="165.5" cy="97.6" r="4.5"/><circle cx="167.6" cy="115.4" r="3.9"/>
+                <circle cx="159.4" cy="135.3" r="3.3"/><circle cx="138.8" cy="151.8" r="3.4"/>
+                <circle cx="123.4" cy="168.4" r="3.4"/><circle cx="104.1" cy="170.2" r="5.1"/>
+                <circle cx="78.0" cy="164.3" r="5.2"/><circle cx="63.1" cy="162.5" r="3.8"/>
+                <circle cx="50.3" cy="142.1" r="3.8"/><circle cx="36.2" cy="116.2" r="4.4"/>
+                <circle cx="32.3" cy="98.0" r="4.3"/><circle cx="37.0" cy="85.7" r="3.6"/>
+                <circle cx="46.3" cy="57.8" r="3.8"/><circle cx="60.7" cy="43.8" r="3.8"/>
+                <circle cx="82.3" cy="31.3" r="3.7"/><circle cx="101.1" cy="30.8" r="5.0"/>
+                <circle cx="123.7" cy="37.5" r="5.2"/><circle cx="135.5" cy="41.8" r="4.7"/>
+                <circle cx="152.6" cy="55.6" r="3.3"/><circle cx="168.9" cy="80.3" r="4.3"/>
+              </g>
+              <circle class="body-glow" cx="100" cy="100" r="46"/>
+              <circle class="body" cx="100" cy="100" r="40"/>
+              <circle class="bump b1" cx="86" cy="86" r="7"/>
+              <circle class="bump b2" cx="114" cy="92" r="5"/>
+              <circle class="bump b3" cx="96" cy="116" r="6"/>
+              <circle class="bump b4" cx="118" cy="114" r="4"/>
+              <circle class="sheen" cx="86" cy="82" r="12"/>
+            </svg>
+            <svg class="hero-mini-curve" viewBox="0 0 220 70" preserveAspectRatio="none">
+              <path class="mc-line" d="M0 55 C 20 45, 35 20, 55 24 C 75 28, 85 8, 105 6 C 125 4, 135 35, 155 42 C 175 49, 190 22, 220 18"/>
+            </svg>
+          </div>
+        </div>
+        <div class="ctx-grid hero-ctx">
+          <div class="ctx-card"><span class="num">01</span><h4>Estacionalidad</h4><p>La influenza presenta patrones cíclicos ligados al clima y a la circulación viral, capturados aquí con la semana del año como proxy temporal.</p></div>
+          <div class="ctx-card"><span class="num">02</span><h4>Subtipos virales</h4><p>Los subtipos A(H1N1)2009 y A(H3N2) tienen comportamientos epidémicos distintos, uno más brusco y otro con estacionalidad marcada y constante.</p></div>
+          <div class="ctx-card"><span class="num">03</span><h4>Cobertura de reporte</h4><p>El número de países que reportan activamente cada semana funciona como proxy de la consistencia del sistema de vigilancia regional ante la OMS.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide" style="--gx:0%;--gy:0%;--gc:rgba(240,166,60,.12);--an:fromLeft"><div class="slide-inner wide"><span class="tag-eyebrow">Objetivos</span><h2 class="big-title">Ruta de la investigación</h2><div class="obj-banner"><span class="tag-eyebrow">Objetivo general</span><p>Evaluar en qué medida la estacionalidad, la actividad viral por subtipos y la cobertura de reporte regional explican las variaciones semanales en los casos confirmados de influenza en Centroamérica, con datos de FluNet y un modelo de regresión lineal múltiple.</p></div><div class="route"><div class="rs"><span class="dot">1</span><div class="txt">Construir una base semanal regional a partir de FluNet.</div></div><div class="rs"><span class="dot">2</span><div class="txt">Estimar el modelo de regresión lineal múltiple por MCO.</div></div><div class="rs"><span class="dot">3</span><div class="txt">Evaluar la significancia individual (t) y conjunta (F).</div></div><div class="rs"><span class="dot">4</span><div class="txt">Analizar la bondad de ajuste: R² y R² ajustado.</div></div><div class="rs"><span class="dot">5</span><div class="txt">Diagnosticar VIF, Breusch-Pagan, Durbin-Watson y Breusch-Godfrey.</div></div><div class="rs"><span class="dot">6</span><div class="txt">Aplicar la corrección robusta de Newey-West si es necesario.</div></div></div></div></section>
+
+  <section class="slide" style="--gx:50%;--gy:50%;--gc:rgba(139,124,246,.18);--an:blurIn"><div class="slide-inner wide"><div class="q-wrap"><span class="q-mark">“</span><h2 class="q-text">¿En qué medida <em class="q1">la estacionalidad</em>, <em class="q2">los subtipos virales circulantes</em> y <em class="q3">el número de países que reportan</em> explican las variaciones semanales en los casos confirmados de influenza en Centroamérica durante 2024–2025?</h2><div class="q-orbs"><span>Pregunta de investigación</span><span></span><span></span></div></div></div></section>
+
+  <section class="slide" style="--gx:100%;--gy:0%;--gc:rgba(232,116,138,.11);--an:flipIn"><div class="slide-inner wide"><span class="tag-eyebrow">Especificación</span><h2 class="big-title">La ecuación</h2><p class="sub">INF_ALL<sub>t</sub> = β₀ + β₁·PAISES_REPORTANDO<sub>t</sub> + β₂·AH1N12009<sub>t</sub> + β₃·AH3<sub>t</sub> + β₄·SEMANA_AÑO<sub>t</sub> + u<sub>t</sub> · interpretación ceteris paribus</p><div class="eq-row"><div class="tk y"><div class="tk-top">Y</div><div class="tk-body"><b>INF_ALL</b><em class="sign dep">dependiente</em><p>Casos semanales confirmados de influenza en la base regional.</p></div></div><span class="eq-op">=</span><div class="tk x1"><div class="tk-top">X₁</div><div class="tk-body"><b>PAISES_REPORTANDO</b><em class="sign pos">signo +</em><p>Cobertura de reporte activo semanal; más cobertura, más casos detectados.</p></div></div><span class="eq-op">+</span><div class="tk x2"><div class="tk-top">X₂</div><div class="tk-body"><b>AH1N12009</b><em class="sign pos">signo +</em><p>Casos semanales del subtipo A(H1N1)pdm09.</p></div></div><span class="eq-op">+</span><div class="tk x3"><div class="tk-top">X₃</div><div class="tk-body"><b>AH3</b><em class="sign pos">signo +</em><p>Casos semanales del subtipo A(H3N2).</p></div></div><span class="eq-op">+</span><div class="tk x4"><div class="tk-top">X₄</div><div class="tk-body"><b>SEMANA_AÑO</b><em class="sign pos">signo +</em><p>Semana del año (1–52): aproximación temporal, tendencia lineal.</p></div></div></div></div></section>
+
+  <section class="slide" style="--gx:50%;--gy:100%;--gc:rgba(139,124,246,.14);--an:fromRight"><div class="slide-inner wide"><span class="tag-eyebrow"></span><h2 class="big-title">Metodología</h2><p class="sub">Enfoque cuantitativo con datos semanales regionales.</p><div class="pipe"><div class="pp" style="--pa:rgba(51,198,232,.28)"><span class="n">PASO 01</span><h4>Recolección</h4><p>Datos semanales de FluNet (OMS) de 7 países, período 2024–2025.</p></div><div class="pp" style="--pa:rgba(90,160,240,.26)"><span class="n">PASO 02</span><h4>Depuración</h4><p>Orden temporal y consolidación regional por semana ISO: 105 observaciones.</p></div><div class="pp" style="--pa:rgba(139,124,246,.28)"><span class="n">PASO 03</span><h4>Estimación</h4><p>Regresión lineal múltiple por MCO, con lectura ceteris paribus.</p></div><div class="pp" style="--pa:rgba(190,120,200,.26)"><span class="n">PASO 04</span><h4>Inferencia</h4><p>Pruebas t (α = 0.05) y F; bondad de ajuste con R² y R² ajustado.</p></div><div class="pp" style="--pa:rgba(240,166,60,.28)"><span class="n">PASO 05</span><h4>Diagnóstico y corrección</h4><p>VIF, Breusch-Pagan, Durbin-Watson, Breusch-Godfrey y Newey-West (4 rezagos).</p></div></div><div class="strip"><span></span><span></span><span></span><span></span><span></span></div></div></section>
+
+  <section class="slide" style="--gx:0%;--gy:100%;--gc:rgba(63,214,166,.12);--an:zoomIn"><div class="slide-inner wide"><span class="tag-eyebrow">Base de datos</span><h2 class="big-title">Integración Regional de los Siete Países de Centroamérica</h2><div class="map-wrap"><svg class="map-svg" viewBox="0 0 640 400"><line class="lnk" x1="210" y1="90" x2="350" y2="60"/><line class="lnk" x1="210" y1="90" x2="340" y2="150"/><line class="lnk" x1="210" y1="90" x2="200" y2="180"/><line class="lnk" x1="350" y1="60" x2="340" y2="150"/><line class="lnk" x1="340" y1="150" x2="200" y2="180"/><line class="lnk" x1="340" y1="150" x2="370" y2="235"/><line class="lnk" x1="200" y1="180" x2="370" y2="235"/><line class="lnk" x1="370" y1="235" x2="430" y2="300"/><line class="lnk" x1="430" y1="300" x2="530" y2="340"/><circle class="pu" cx="210" cy="90" r="10" style="animation-delay:0.0s"/><circle class="nd" cx="210" cy="90" r="6"/><text x="224" y="94">Guatemala</text><circle class="pu" cx="350" cy="60" r="10" style="animation-delay:0.35s"/><circle class="nd" cx="350" cy="60" r="6"/><text x="364" y="64">Belice</text><circle class="pu" cx="340" cy="150" r="10" style="animation-delay:0.7s"/><circle class="nd" cx="340" cy="150" r="6"/><text x="354" y="154">Honduras</text><circle class="pu" cx="200" cy="180" r="10" style="animation-delay:1.0499999999999998s"/><circle class="nd" cx="200" cy="180" r="6"/><text x="214" y="184">El Salvador</text><circle class="pu" cx="370" cy="235" r="10" style="animation-delay:1.4s"/><circle class="nd" cx="370" cy="235" r="6"/><text x="384" y="239">Nicaragua</text><circle class="pu" cx="430" cy="300" r="10" style="animation-delay:1.75s"/><circle class="nd" cx="430" cy="300" r="6"/><text x="444" y="304">Costa Rica</text><circle class="pu" cx="530" cy="340" r="10" style="animation-delay:2.0999999999999996s"/><circle class="nd" cx="530" cy="340" r="6"/><text x="544" y="344">Panamá</text></svg><div class="map-side"><div class="map-big">105</div><p>observaciones semanales consolidadas en una estructura regional común, ordenadas temporalmente y alineadas por semana epidemiológica ISO (2024–2025).</p><div class="strip"><span>Belice</span><span>Costa Rica</span><span>El Salvador</span><span>Guatemala</span><span>Honduras</span><span>Nicaragua</span><span>Panamá</span></div></div></div></div></section>
+
+  <section class="slide" style="--gx:50%;--gy:0%;--gc:rgba(51,198,232,.13);--an:riseIn"><div class="slide-inner wide"><span class="tag-eyebrow">Estimación MCO</span><h2 class="big-title">Interpretación de los Resultados Obtenidos en R</h2><div class="term"><div class="term-bar"><i></i><i></i><i></i><span>R — regresión lineal múltiple</span></div><div class="term-body"><div class="ln pr" style="--d:1">&gt; modelo &lt;- lm(INF_ALL ~ PAISES_REPORTANDO + AH1N12009 + AH3 + SEMANA_AÑO, data = flunet)</div><div class="ln pr" style="--d:2">&gt; summary(modelo)</div><div class="ln dm" style="--d:3">Coefficients:</div><div class="ln " style="--d:4">                    Estimate  Std.Error  t value  Pr(&gt;|t|)</div><div class="ln " style="--d:5">(Intercept)       -113.7039    26.0052   -4.372  3.02e-05 ***</div><div class="ln " style="--d:6">PAISES_REPORTANDO    9.6585     2.6466    3.649  0.000420 ***</div><div class="ln " style="--d:7">AH1N12009            2.2221     0.0675   32.936  &lt; 2e-16  ***</div><div class="ln " style="--d:8">AH3                  2.1053     0.0701   30.022  &lt; 2e-16  ***</div><div class="ln " style="--d:9">SEMANA_AÑO           1.7296     0.2750    6.290  8.44e-09 ***</div><div class="ln dm" style="--d:10">---</div><div class="ln hi" style="--d:11">Multiple R-squared: 0.9566   Adjusted R-squared: 0.9549</div><div class="ln hi" style="--d:12">F-statistic: 551.6679   p-value: &lt; 0.001   (n = 105)</div><div class="ln" style="--d:13"><span class="pr">&gt;</span> <span class="cur"></span></div></div></div></div></section>
+
+  <section class="slide" style="--gx:100%;--gy:100%;--gc:rgba(51,198,232,.12);--an:fromLeft"><div class="slide-inner wide"><span class="tag-eyebrow">Resultados</span><h2 class="big-title">¿Qué variable pesa más?</h2><p class="sub">Estadístico t de cada coeficiente (MCO). La línea punteada marca el valor crítico ≈ 1.96 (α = 0.05): todas la superan.</p><div class="bars"><div class="br"><span class="nm">AH1N12009</span><div class="tr"><i class="" style="--w:94.1%"></i></div><span class="vl"><b>t = 32.936</b><br>coef. 2.2221 · p &lt; 2e-16</span></div><div class="br"><span class="nm">AH3</span><div class="tr"><i class="" style="--w:85.8%"></i></div><span class="vl"><b>t = 30.022</b><br>coef. 2.1053 · p &lt; 2e-16</span></div><div class="br"><span class="nm">SEMANA_AÑO</span><div class="tr"><i class="" style="--w:18%"></i></div><span class="vl"><b>t = 6.290</b><br>coef. 1.7296 · p 8.44e-09</span></div><div class="br"><span class="nm">Constante</span><div class="tr"><i class="neg" style="--w:12.5%"></i></div><span class="vl"><b>t = −4.372</b><br>coef. −113.7039 · p 3.02e-05</span></div><div class="br"><span class="nm">PAISES_REPORTANDO</span><div class="tr"><i class="" style="--w:10.4%"></i></div><span class="vl"><b>t = 3.649</b><br>coef. 9.6585 · p 0.000420</span></div></div></div></section>
+
+  <section class="slide" style="--gx:50%;--gy:50%;--gc:rgba(139,124,246,.13);--an:zoomIn"><div class="slide-inner wide"><span class="tag-eyebrow">Inferencia</span><h2 class="big-title">Veredicto de Significancia Estadística del Modelo</h2><div class="split"><div class="sp-l"><h3>Prueba t · individual</h3><div class="hyp">H₀: βᵢ = 0 vs H₁: βᵢ ≠ 0 · α = 0.05</div><div class="chk"><b>✓</b>Países reportando<span>p = 0.000420</span></div><div class="chk"><b>✓</b>H1N1<span>p &lt; 2e-16</span></div><div class="chk"><b>✓</b>H3N2<span>p &lt; 2e-16</span></div><div class="chk"><b>✓</b>Semana del año<span>p = 8.44e-09</span></div><p class="sub" style="margin-top:14px">Se rechaza H₀ en las cuatro pendientes.</p></div><div class="sp-r"><h3>Prueba F · conjunta</h3><div class="hyp">H₀: β₁ = β₂ = β₃ = β₄ = 0</div><div class="ringbox"><svg class="ring" viewBox="0 0 160 160"><defs><linearGradient id="rg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#33C6E8"/><stop offset="1" stop-color="#8B7CF6"/></linearGradient></defs><circle class="bgc" cx="80" cy="80" r="70"/><circle class="fg" cx="80" cy="80" r="70"/></svg><div class="ring-t">95.66%<small>R² · ajustado 95.49%</small></div></div><p class="sub" style="margin:0 auto"><b>F = 551.6679</b> · p &lt; 0.001 → el modelo es significativo en conjunto.</p></div></div></div></section>
+
+  <section class="slide" style="--gx:0%;--gy:50%;--gc:rgba(63,214,166,.13);--an:riseIn"><div class="slide-inner wide"><span class="tag-eyebrow">Diagnóstico 1</span><h2 class="big-title">Multicolinealidad</h2><p class="sub">Factor de Inflación de Varianza (VIF): un valor mayor a 5 sería problemático. Todos quedan en la zona segura.</p><div class="scale"><div class="mk" style="left:20.04%;height:40px"><b>1</b></div><div class="mk" style="left:21.09%;height:80px"><b>2</b></div><div class="mk" style="left:17.13%;height:120px"><b>3</b></div><div class="mk" style="left:18.85%;height:160px"><b>4</b></div></div><div class="zones"><span>0 — 2.5 · zona segura</span><span>2.5 — 5 · atención</span><span>&gt; 5 · problema</span></div><div class="vleg"><div><b>1.2023</b>1 · PAISES_REPORTANDO</div><div><b>1.2656</b>2 · AH1N12009</div><div><b>1.0279</b>3 · AH3</div><div><b>1.1308</b>4 · SEMANA_AÑO</div></div></div></section>
+
+  <section class="slide" style="--gx:50%;--gy:0%;--gc:rgba(255,77,94,.12);--an:flipIn"><div class="slide-inner wide"><span class="tag-eyebrow">Diagnóstico 2</span><h2 class="big-title">Panel de control de supuestos</h2><div class="panel"><div class="lamp-c"><div class="lamp ok"></div><h4>VIF</h4><div class="v">4 variables · 1.03 – 1.27</div><div class="vd">Sin multicolinealidad problemática</div></div><div class="lamp-c"><div class="lamp bad"></div><h4>Breusch-Pagan</h4><div class="v">BP = 22.709<br>p = 0.0001447</div><div class="vd">Como p < 0.05, se rechaza H₀</div></div><div class="lamp-c"><div class="lamp bad"></div><h4>Durbin-Watson</h4><div class="v">DW = 0.91553<br>p = 1.248e-09</div><div class="vd">Autocorrelación positiva</div></div><div class="lamp-c"><div class="lamp bad"></div><h4>Breusch-Godfrey</h4><div class="v">LM = 32.647 (4 rezagos)<br>p = 1.411e-06</div><div class="vd">Ausencia de Correlación serial</div></div></div><div class="act"><b></div></div></section>
+
+  <section class="slide" style="--gx:100%;--gy:0%;--gc:rgba(240,166,60,.12);--an:fromRight"><div class="slide-inner wide"><span class="tag-eyebrow">Corrección robusta</span><h2 class="big-title">Antes y después de Newey-West</h2><div class="legend"><span><b style="background:#5E7A8C"></b>MCO convencional</span><span><b style="background:var(--flu-cyan)"></b>Newey-West (4 rezagos)</span></div><div class="bars"><div class="br"><span class="nm">AH1N12009</span><div class="duo"><div class="tr"><i class="g" style="--w:94.1%"></i></div><div class="tr"><i style="--w:44.0%"></i></div></div><span class="vl">|t| 32.94 → <b>15.41</b><br><span class="ok-badge">✓ sigue significativa</span></span></div><div class="br"><span class="nm">AH3</span><div class="duo"><div class="tr"><i class="g" style="--w:85.8%"></i></div><div class="tr"><i style="--w:62.3%"></i></div></div><span class="vl">|t| 30.02 → <b>21.80</b><br><span class="ok-badge">✓ sigue significativa</span></span></div><div class="br"><span class="nm">SEMANA_AÑO</span><div class="duo"><div class="tr"><i class="g" style="--w:18.0%"></i></div><div class="tr"><i style="--w:13.1%"></i></div></div><span class="vl">|t| 6.29 → <b>4.58</b><br><span class="ok-badge">✓ sigue significativa</span></span></div><div class="br"><span class="nm">PAISES_REPORTANDO</span><div class="duo"><div class="tr"><i class="g" style="--w:10.4%"></i></div><div class="tr"><i style="--w:12.2%"></i></div></div><span class="vl">|t| 3.65 → <b>4.25</b><br><span class="ok-badge">✓ sigue significativa</span></span></div><div class="br"><span class="nm">Constante</span><div class="duo"><div class="tr"><i class="g" style="--w:12.5%"></i></div><div class="tr"><i style="--w:11.7%"></i></div></div><span class="vl">|t| 4.37 → <b>4.09</b><br><span class="ok-badge">✓ sigue significativa</span></span></div></div><p class="sub" style="margin-top:20px">Los coeficientes no cambian; solo se ajustan los errores estándar. Con la inferencia robusta, las cuatro variables se mantienen significativas al 5%.</p></div></section>
+
+  <section class="slide" style="--gx:50%;--gy:50%;--gc:rgba(240,166,60,.10);--an:zoomIn"><div class="slide-inner wide"><span class="tag-eyebrow">Aplicación del modelo</span><h2 class="big-title">Predicción ilustrativa</h2><div class="strip" style="margin-bottom:26px"><span>Semana 52 de 2025</span><span>PAISES_REPORTANDO = 7 (cobertura completa)</span><span>AH1N12009 = 53</span><span>AH3 = 159</span><span>SEMANA_AÑO = 52</span></div><div class="rcpt-wrap"><div class="rcpt"><h3>ECUACIÓN ESTIMADA</h3><div class="cn">INF_ALL estimado · semana 52 de 2025</div><div class="ln"><span>Constante</span><i></i><span>−113.70</span></div><div class="ln"><span>9.6585 × 7 países</span><i></i><span>67.61</span></div><div class="ln"><span>2.2221 × 53 (H1N1)</span><i></i><span>117.77</span></div><div class="ln"><span>2.1053 × 159 (H3N2)</span><i></i><span>334.74</span></div><div class="ln"><span>1.7296 × 52 (semana)</span><i></i><span>89.94</span></div><div class="ln tot"><span>Ŷ PREDICHO</span><i></i><span>496.36</span></div><div class="ln"><span>Observado en la base</span><i></i><span>622</span></div><div class="stamp">RESIDUO 125.64</div></div><div><div class="cmpbars"><div class="cb"><div class="col pred"></div>Predicho<b>496.36</b></div><div class="cb"><div class="col obs"></div>Observado<b>622</b></div></div><p class="sub" style="text-align:center;margin:20px auto 0">El modelo predice ≈ 496 casos para esta combinación de variables; el valor observado es 622. Un R² elevado (0.9566) no implica predicción perfecta en cada observación.</p></div></div></div></section>
+
+  <section class="slide" style="--gx:0%;--gy:0%;--gc:rgba(139,124,246,.13);--an:blurIn"><div class="slide-inner wide"><span class="tag-eyebrow">Discusión</span><h2 class="big-title">Lo que dicen los resultados</h2><div class="flips"><div class="fc" tabindex="0" style="--c1:rgba(51,198,232,.35)"><div class="fc-in"><div class="fc-f"><span class="ic">◉</span><h4>Cobertura de reporte</h4><small>PAISES_REPORTANDO · pasa el cursor o toca</small></div><div class="fc-b">Coeficiente positivo: más cobertura del sistema de vigilancia implica más casos detectados y registrados. Es medición epidemiológica, no evidencia de que notificar genere transmisión.</div></div></div><div class="fc" tabindex="0" style="--c1:rgba(139,124,246,.4)"><div class="fc-in"><div class="fc-f"><span class="ic">✚</span><h4>Subtipos H1N1 y H3N2</h4><small>AH1N12009 · AH3 · pasa el cursor o toca</small></div><div class="fc-b">Positivos y altamente significativos, pero forman parte de la actividad total de influenza: su relación con INF_ALL tiene un componente mecánico de composición.</div></div></div><div class="fc" tabindex="0" style="--c1:rgba(240,166,60,.35)"><div class="fc-in"><div class="fc-f"><span class="ic">◷</span><h4>Semana del año</h4><small>SEMANA_AÑO · pasa el cursor o toca</small></div><div class="fc-b">Significativa y positiva: describe una tendencia lineal simple, sin incorporar temperatura, humedad, precipitación ni formas no lineales.</div></div></div><div class="fc" tabindex="0" style="--c1:rgba(63,214,166,.35)"><div class="fc-in"><div class="fc-f"><span class="ic">⚖</span><h4>Alcance de los diagnósticos</h4><small>VIF · BP · DW · BG · pasa el cursor o toca</small></div><div class="fc-b">Sin multicolinealidad, pero con heteroscedasticidad y autocorrelación. Newey-West mantiene la significancia: evidencia de asociación, no de causalidad.</div></div></div></div></div></section>
+
+  <section class="slide" style="--gx:50%;--gy:100%;--gc:rgba(240,166,60,.12);--an:riseIn"><div class="slide-inner wide"><span class="tag-eyebrow">Conclusiones</span><h2 class="big-title">Cuatro ideas para llevarse</h2><div class="pillars"><div class="pl" style="--pc:rgba(51,198,232,.32);--pb:#33C6E8;height:300px;animation-delay:0.0s"><div class="no">01</div><p>Cobertura, H1N1, H3N2 y semana del año se asocian positiva y significativamente con los casos semanales de influenza.</p></div><div class="pl" style="--pc:rgba(139,124,246,.34);--pb:#8B7CF6;height:370px;animation-delay:0.18s"><div class="no">02</div><p>Modelo significativo en conjunto: R² = 0.9566 y R² ajustado = 0.9549. Los VIF (todos &lt; 1.3) descartan multicolinealidad.</p></div><div class="pl" style="--pc:rgba(240,166,60,.32);--pb:#F0A63C;height:430px;animation-delay:0.36s"><div class="no">03</div><p>BP, DW y BG detectan heteroscedasticidad y autocorrelación; con Newey-West (4 rezagos) las cuatro variables siguen siendo significativas al 5%.</p></div><div class="pl" style="--pc:rgba(63,214,166,.3);--pb:#3FD6A6;height:340px;animation-delay:0.54s"><div class="no">04</div><p>Es asociación, no causalidad: H1N1 y H3N2 son parte de INF_ALL y SEMANA_AÑO aproxima linealmente una dinámica estacional más compleja.</p></div></div></div></section>
+
+  <section class="slide" style="--gx:100%;--gy:50%;--gc:rgba(63,214,166,.12);--an:fromLeft"><div class="slide-inner wide"><span class="tag-eyebrow">Extensión futura</span><h2 class="big-title">Conclusiones</h2><p class="sub">Tres caminos para separar mejor la epidemiología de la medición.</p><div class="signs"><div class="sg" style="--sc:rgba(51,198,232,.38);--ml:0px;--r:-1deg"><span class="ic">🌡</span><div><h4>Variables ambientales</h4><p>Incorporar directamente temperatura, humedad y precipitación en lugar de aproximarlas con la semana del año.</p></div></div><div class="sg" style="--sc:rgba(139,124,246,.4);--ml:70px;--r:0.8deg"><span class="ic">🧪</span><div><h4>Medidas de positividad</h4><p>Evaluar tasas de positividad viral para separar mejor los componentes epidemiológicos de los de medición.</p></div></div><div class="sg" style="--sc:rgba(240,166,60,.38);--ml:140px;--r:-0.6deg"><span class="ic">⏱</span><div><h4>Rezagos y estructuras temporales</h4><p>Incorporar rezagos de la actividad viral u otras estructuras temporales para estudiar la estacionalidad con mayor detalle.</p></div></div></div></div></section>
+
+  <section class="slide" style="--gx:50%;--gy:30%;--gc:rgba(51,198,232,.14);--an:zoomIn">
+    <div class="slide-inner">
+      <div class="dl-card">
+        <div class="dl-glow"></div>
+        <div class="dl-orbit">
+          <svg viewBox="0 0 120 120"><circle class="dl-ring" cx="60" cy="60" r="52"/><circle class="dl-ring dl-ring2" cx="60" cy="60" r="38"/></svg>
+        </div>
+        <span class="tag-eyebrow dl-eyebrow">Documento completo</span>
+        <h2 class="dl-title">Descarga <span class="grad">paper</span> en PDF</h2>
+        <p class="dl-sub"></p>
+        <a class="dl-button" href="data:application/pdf;base64,JVBERi0xLjQKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUiAvRjMgNSAwIFIgL0Y0IDYgMCBSIC9GNSA3IDAgUgo+PgplbmRvYmoKMiAwIG9iago8PAovQmFzZUZvbnQgL0hlbHZldGljYSAvRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZyAvTmFtZSAvRjEgL1N1YnR5cGUgL1R5cGUxIC9UeXBlIC9Gb250Cj4+CmVuZG9iagozIDAgb2JqCjw8Ci9CYXNlRm9udCAvSGVsdmV0aWNhLUJvbGQgL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcgL05hbWUgL0YyIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKNCAwIG9iago8PAovQ29udGVudHMgMTYgMCBSIC9NZWRpYUJveCBbIDAgMCA2MTIgNzkyIF0gL1BhcmVudCAxNSAwIFIgL1Jlc291cmNlcyA8PAovRm9udCAxIDAgUiAvUHJvY1NldCBbIC9QREYgL1RleHQgL0ltYWdlQiAvSW1hZ2VDIC9JbWFnZUkgXQo+PiAvUm90YXRlIDAgL1RyYW5zIDw8Cgo+PiAKICAvVHlwZSAvUGFnZQo+PgplbmRvYmoKNSAwIG9iago8PAovQmFzZUZvbnQgL0NvdXJpZXIgL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcgL05hbWUgL0YzIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKNiAwIG9iago8PAovQmFzZUZvbnQgL1phcGZEaW5nYmF0cyAvTmFtZSAvRjQgL1N1YnR5cGUgL1R5cGUxIC9UeXBlIC9Gb250Cj4+CmVuZG9iago3IDAgb2JqCjw8Ci9CYXNlRm9udCAvU3ltYm9sIC9OYW1lIC9GNSAvU3VidHlwZSAvVHlwZTEgL1R5cGUgL0ZvbnQKPj4KZW5kb2JqCjggMCBvYmoKPDwKL0NvbnRlbnRzIDE3IDAgUiAvTWVkaWFCb3ggWyAwIDAgNjEyIDc5MiBdIC9QYXJlbnQgMTUgMCBSIC9SZXNvdXJjZXMgPDwKL0ZvbnQgMSAwIFIgL1Byb2NTZXQgWyAvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJIF0KPj4gL1JvdGF0ZSAwIC9UcmFucyA8PAoKPj4gCiAgL1R5cGUgL1BhZ2UKPj4KZW5kb2JqCjkgMCBvYmoKPDwKL0NvbnRlbnRzIDE4IDAgUiAvTWVkaWFCb3ggWyAwIDAgNjEyIDc5MiBdIC9QYXJlbnQgMTUgMCBSIC9SZXNvdXJjZXMgPDwKL0ZvbnQgMSAwIFIgL1Byb2NTZXQgWyAvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJIF0KPj4gL1JvdGF0ZSAwIC9UcmFucyA8PAoKPj4gCiAgL1R5cGUgL1BhZ2UKPj4KZW5kb2JqCjEwIDAgb2JqCjw8Ci9Db250ZW50cyAxOSAwIFIgL01lZGlhQm94IFsgMCAwIDYxMiA3OTIgXSAvUGFyZW50IDE1IDAgUiAvUmVzb3VyY2VzIDw8Ci9Gb250IDEgMCBSIC9Qcm9jU2V0IFsgL1BERiAvVGV4dCAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSSBdCj4+IC9Sb3RhdGUgMCAvVHJhbnMgPDwKCj4+IAogIC9UeXBlIC9QYWdlCj4+CmVuZG9iagoxMSAwIG9iago8PAovQ29udGVudHMgMjAgMCBSIC9NZWRpYUJveCBbIDAgMCA2MTIgNzkyIF0gL1BhcmVudCAxNSAwIFIgL1Jlc291cmNlcyA8PAovRm9udCAxIDAgUiAvUHJvY1NldCBbIC9QREYgL1RleHQgL0ltYWdlQiAvSW1hZ2VDIC9JbWFnZUkgXQo+PiAvUm90YXRlIDAgL1RyYW5zIDw8Cgo+PiAKICAvVHlwZSAvUGFnZQo+PgplbmRvYmoKMTIgMCBvYmoKPDwKL0NvbnRlbnRzIDIxIDAgUiAvTWVkaWFCb3ggWyAwIDAgNjEyIDc5MiBdIC9QYXJlbnQgMTUgMCBSIC9SZXNvdXJjZXMgPDwKL0ZvbnQgMSAwIFIgL1Byb2NTZXQgWyAvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJIF0KPj4gL1JvdGF0ZSAwIC9UcmFucyA8PAoKPj4gCiAgL1R5cGUgL1BhZ2UKPj4KZW5kb2JqCjEzIDAgb2JqCjw8Ci9QYWdlTW9kZSAvVXNlTm9uZSAvUGFnZXMgMTUgMCBSIC9UeXBlIC9DYXRhbG9nCj4+CmVuZG9iagoxNCAwIG9iago8PAovQXV0aG9yIChcKGFub255bW91c1wpKSAvQ3JlYXRpb25EYXRlIChEOjIwMjYwOTI4MDI1NDA4KzAwJzAwJykgL0NyZWF0b3IgKFwodW5zcGVjaWZpZWRcKSkgL0tleXdvcmRzICgpIC9Nb2REYXRlIChEOjIwMjYwOTI4MDI1NDA4KzAwJzAwJykgL1Byb2R1Y2VyIChSZXBvcnRMYWIgUERGIExpYnJhcnkgLSBcKG9wZW5zb3VyY2VcKSkgCiAgL1N1YmplY3QgKFwodW5zcGVjaWZpZWRcKSkgL1RpdGxlIChDaXJjdWxhY2lvbiBzZW1hbmFsIGRlIGluZmx1ZW56YSBlbiBDZW50cm9hbWVyaWNhKSAvVHJhcHBlZCAvRmFsc2UKPj4KZW5kb2JqCjE1IDAgb2JqCjw8Ci9Db3VudCA2IC9LaWRzIFsgNCAwIFIgOCAwIFIgOSAwIFIgMTAgMCBSIDExIDAgUiAxMiAwIFIgXSAvVHlwZSAvUGFnZXMKPj4KZW5kb2JqCjE2IDAgb2JqCjw8Ci9GaWx0ZXIgWyAvQVNDSUk4NURlY29kZSAvRmxhdGVEZWNvZGUgXSAvTGVuZ3RoIDIxODQKPj4Kc3RyZWFtCkdhdTBEZ04pPmEmVWpDVG9WN3NUXC0wWTZeOC45VUI8bWAzLFxuY1FkMGg1Oj4mOT1TInNnVGRJc2soRVViKDY7blRyQS1RUmxHXlZiYHIhNV87PyMkMyxLWidFLlRZSVghQTY3ISpLQytxQShucSo4Ij9CNCZzJnBnZmZ1MTYhTCM2a1xRaC1MX3JBaWBfcEMpJFAjR2EmNWBxYCdrTipnUlowVDMlY0QtS1BwJ2BNOW1wN1lDKyxgOEtiPmphIm9ZI1NjPztWI09QXG5XZmZ0S2Y7Yk4nYiNQbjNaWmorSkZLSSQ4NXJaUixjKEY0R289ImJwP2hlc1QzQSYqNV4pQ05nO2FxR1tbcWFaIWgjUjIvZEVVN0BRRUlbKT1qJ2RxQXJGITxLW202WkQ2R0ovTzc/TFtZQFdscW5YZExnNDZOZkxXKVhTSWgsImcuVVRfIjhRWC5rQSczPkE5TDxvYic1X1BrJmlHKVdZVGUlVUJzKUI3SGtCQ1F1MmMqR0Msc2RiQS44REEoP0V0V21WYVE5NDpQLVswXGsnVzxJKTlEVm4vLjsvUilfYE9NYnQnVzsrck9UMGItJT9YVnElUyZgdVBfOVU5QzFYJ1JhWk1EVl01UydHMFVnXis0J082Ik5kL1glRXRiQjpVbl5TdEhNJ190VDFRXF1pOi5hbzpoZVFdSEtYT0FjY11kXClAWDpPTz9Dbl1vT2RWVDRqL05ncmJJOmskTllGPG07V0IvaERbZyImOT47NV1YbDlGTm5iMjArcGUiZUtsWVUmU3JHbmMhIS5bKEg1J0xqZWtRL1hsTmkncCsjLlw5QHRVZSRPLEkuTWU+P0NwbjI6ZV42OzVycWc+NE5PNlIpaitLQ1traj8sQz1kXFsvdDtgRUdFdEVCaXQxdUM+U0NnUmAtSlclMyhhLUspcD1nIWwtJSFEKlRVb0knSlpuLDVsU2w/XG9cLj1xNUBRPSk7T0cmcU4iKkIjTUAsLTw1Yl09QipPWjFiT0FMPDpGJCdJJ00kIi1cL18zUmc8KTYza1ZwMk1HSDE0SCdDXCtbOlAkaGMvLT9FSD02MkxySmpMNW4iVERhMUxvTFtCWzkoTXNsPiwiSDIiV1hcTDJmXi1ONzI2KnBycFQhbVBsXydRI1BAYm8tLDJwcyRJbCU2ZUBrbUJfa3UlSzstLVZFZHA8KWM5ckFsPC0lajMxP14hND8qXVhvRkdVU2QsWChlIXBVOTFYTWNUS1kqLHNyZzJsYzdlPE4zdFpXUiVCMUdxbFk3bHBbL1IwKGknYSsyIypvTSJLLXNzNSlNOFtEJnVsXWVBJmIlIkxhamJpU3BjMjZtV1JQY246c2laTGthOGFYUWRCMTsjQUJGKGBzRz1MMSdWdGdiMmRoQk5wWTpdbUJSImhtT18hKlsjQTQ3RTI5KkJNUShBdS4jLFZMMk5BMy4nMjBSLCxZPjhSdHM0cEUvWmRyP3VBcU1DXGpmbCplUWkvW0xHRz0sQT9oRW04TzsxJiZfRENRMlRPZzQrdTwrTXAlSWRbUSsjNFdEM0BMU1ZHT2pPaTszL01WUClrRElUVnJKK2ZIZkhkQyxCP0hcSGZOSzdTUGMyK0lBcG5ccUd1UiVEXUtqV2xXYTU2Q1lCOWk6cj5YckIxaVlxJ2c+QmY3bEdmTVckWSMlPzktKTtRQGlLSjs+NyNIIUY6NzU5ZnRFSDxiSjJXamE3WEsvJXFydG0zZGpJSWQoWD9kNEx1IUM1IXJyRkxhVThdRCpaJihdMUtKJGJEZjA4PFRcWSFzIWRISVl1XG1hSypXL1k/KjonQTo7OlUqXXVcVXBERGg1YiE/aXRjSCFcSlk1dSxwKGNVKFZraTtIRSE+blhlNS0nK11MS1dnUVFMZDdRIyYqKzNqKHNKYzBPRWNjL0JLRVs6JFxkc0ppb19dJzI0VkdbK1pPIk0qbDZkWFw5MkRPYUdGblhwKixaLyxVWC9iMlBpdVRsTGkmcEUhVScqSVYhMTIiVERbcUAlaGouQyVLIWFiLGYkVSc/WWhfJC1sOGZuTVtpb2NuVVpoQUVdWG45aUJUWidnQlcmNlV1LWJpcmpaQCFPYkVRYFx1JEZyXlg8cjU5bGlfT11RbnEqZEdHODAkIl9gZ00iaD1rb3VcTWEjRzQqNmNcbk47TmtrKj0oYGNJNVFkKEFNM1ApKVIkQllHLXRjWTlZM2ZWaDVHS1RySEx1T0guSkJINnBraCtpTS1EO15sZ0pQMj5CQXEoJF06STNuTjhvK2pUPGkoO3BOdE4hM1VhbkcmWXI/Om00MSInbzdQQkZ0cGZaamg5UDBnRHAzKipCajJeZyNOPFktKiQzRGBFXWBGclhWT2psWTstXHQ4TCtAWVphKyk8cDs9MkAka2o3YmhHO0VERnQ7Rz82Yz8uZydSYlxbSm9SLSYkQzplTkFyOkJrIWJbUldFT1ZXS1kiKkRzRXJqLEVYQE9CZEFKQDYmLmwyTS5wXiZoczJCQ2ZLWGElU2M9bTAqUTtEL29gLXNgMnJUMyw5Rzc7VFMvMW9lOidYVzEoTHFqRDszaUItXlt1dVZXY1xWb2tRdFRgUUIrQExMSypCTk8tUTJtZ1lJJlZfUjQ0bCFrND5ycVszL0s0OlZ0SS5lS00nOm1mOWNkQ29yTzBAK1MoYiliWlxGP0I+Y2tLMCVLWCUqKltrI11nXVZdQnNuPEJVXjRRYjVOUWknbCVaZElMdDRqQVRYIjNpSyZLKCFzXUNqRCliPnMhc0hJXFpdMSwoIzcnV0Qpb1QxVSVIUjA2QWlUckNhPjJLa2wyNGZlV1pVXGsiOiFxMjwsMEhQXFEsVkBMKU5lMXViZClAL0hxXkU2WCE7aSw+RzZmKmpfOyskZmpUQUh+PmVuZHN0cmVhbQplbmRvYmoKMTcgMCBvYmoKPDwKL0ZpbHRlciBbIC9BU0NJSTg1RGVjb2RlIC9GbGF0ZURlY29kZSBdIC9MZW5ndGggMjg0Ngo+PgpzdHJlYW0KR2F1MERnTiklPCZxL0E1YlRpXCIwUDU6XWUzNVJsakNsYCIqKVZ0SzxrM3QnOC9XLnVUYS0rUmIxSCtIXzFhIWBSYWJBO1o3SCZ1bC5iSU9oO2xmIyVzUyUsPSxkKihhJCphSWBXYHVkQjA+ZlFHNSVEcWhqby1WaVNEZD1vbiQ5T1FMTXMnci5PKUk8a1RXNWRsOmBbUSkvck5dSGlGNixcP10uIkJZLls5Jk4vKUQ/VW8wRU0jRlknVHQyXT1aaV1mNUZJRC5DOTxmbitII1VbZFQjXGZoJzlRL00zUmNVNU1tdChCPGRlQCdfMChrIzc6IjNjYTAjIURsX08hLCozW2U9ZlZqQVIyN3FSUzhxRztjQkVwUFJCaWkwVUZnN1JhVk0wW1hBVVFPYig8ZGhURkYpMExOUTdxWic1LzloOU4nKVk5W2klPFtMbiVAOTcpIzdxYFMtXCslb0NQOlJWYztzQic4LEErNWRDPDpSY2xSLzVebkNLSSNSZSFeNENPKFNuQEpDVFpSaiksNkReXWxtKFU4S1ttOWZcQTw0MHJwJlVLOW02Lm5hWyslaDApL3RxJSIuSWIuZlxsQCQ3UWhgKi07cTkkWkM4bDVGUyoyL19RVkQ9X2BgY0JgVjRJcDM6YGElcXMhQ1I0WHBfLWgtJkdRN2ZrSkMrPWNkXS1ZKDI0UUFYLm5lWkI4Xjk9RmlUXGFgY0IyUUppXThbZCUobFEnRmtsJzVhWEpEYXQqMCNyOlleK3BmTG42aUlaPHMyPDIkaU5cPDxiaU1IXls6LUhlYEBVWCpHRixeKCJMK08vZG51TDBZUCw8SyZrQkBhSVdpQmYiZTgoI0BkazInOV1xVnNwYmVcWT5OW00kSzQ9SHNcLytbW1g+MiomUlJPQDFqQjFVOFUvQyUwUCJqVz03XjhldWJHTEBJO15FcT4+RldTMypWTyw1Wy5YbVEsOiVdMV0jRU4yVCtwZVFkXWgxaEpaJSpcPSJBK3BnQSheX09SIVRpPUshVGYpNUxBdD5uQWJsOmVeVHJUPG5iUmk0b0RNXmBlV0xhcUVnKio7Vm4rI01ZPWBTWFJMKVdxKlQ/JlJISHI0OjdUNjFTWWBePV00MFdiczlLaDRxVHNoa08yMTlLUyEpXCExUlBsKUhoXjEkW0tuPyRUPTNmJzY7dHNoQTguWjIlTiQmJD9cVTdbP1ZMS1EnSD9sMEk8LFtITEMiVFZmPENYVmg4NypgLTk7Sy9iX0s5LVlddG5eXTpmMDEpbWpxPSo3LVIzLSc+cTQlIy9hLmJNdGo5Ml0taTRIQ3VBZT0qPVA5K3FmaiM/X2szZyVqMWpITVZjMUk3JkhCL2lEYkVSZkIqb29GXCNtP0BnMG8qJTNlVFE3TGNXVCxxUyYhM24/Zk4zOWUuWS0jUSxqPj0kcFAhPnBHUkM8TFpaNTk5UFltLFtiIyVNKztHdVRxWkpEcTJyXm8vbGs6NEFvJSw9amReY0Z1S09AWGk8NiJZITVHQj5BMCVEUVtUdWBSbkc1QEYwQHUubWFXVSFcSih1JylQJFxrYj4xdC1tPDgnKVI9dWVfWUU0KG9ELklyam03LltrU3EnQDhZdHBOQldiQEsnPiQqXkMhYWxmXisjVVNnO3BoLWouUy9iPHIxOTczXGtCJFVMLVJpYydLPEsuQUhrYD9NNWYzIkA/PT9cR1FWQz1pbEQrPFArK2s9aV9oYzhEIS9lZ3NiciprXXBAcWpIUyUsUyQjO0Qsb0QhcWJPZmd1NTVUWVFyb047OURMMjlPTDRIOmQ4WD8lISlGRmRYVlVKMkU6cHQ5Li9xZUttJmRmJkNwRG07KCtPakwxZitxUU4uakhDNzpAVlskZmRsbFcnSFpbUSNSUCVLUjs0Pjcvb1tkcUpUKipaTmFRb1hxRkpAbkRfcDElcGR1OjpWWm5KKjRqYnBFOkMuKFdaR0RmO1VTcHM3U3JoPSozWGpkZCgmcXNQJEUuKDtVa0drXFhBKT42ZT9CR1VRW0hLJDghYDJGM0NrL2tRYlU3OW42JFVzYVlXP1JZb2VoLDpVTCIib3NGcmlvXCduIU80M24tPVpDb28mTzNiMyU3N0BAK1dtUD0sYCgiJzBvYFJdM0dlUm1UYjEvImtoQE8yRGgxUCpxNXJpYlNkN2E+WlhoLFVWck9mSFJqaUVnJSxTWG9ZIXRUM0VhMFYlL1gjQmlrPXJkJV9BRDA5VFYoakZqS1skXSMycEI3Xm8nZmxUS0dpUVsqKDE2KyhScksuNyRwYUEqRTQvViFqM2xdOkBcQlFQUnU2VSZMLyErWmgrXFBSRy90SjNKMCpsZkxKVzh1VCw3ZXJFZm1MPCpxbWlSR1IiO1REZENbMzozVXFcPF9OTG1eXS5sci43IyNDYjs5SVpGNDksPWZoImIpXG8+OGB0W2A/L2QrQWxvaS4/SD9mSCcvdT4xaCYsMEdiaigyWl0kZykjVzViRVlDRk1JI01KYG1YIylvby5zMkBMKyYudDI7c1MlL1xxXTlFb2BhP0BcSihgJyNkRV9aUHNnNTFzSGB1UjZzWDBbVkMlYyFhKkkhTidmT21jXW9OXSlBVFxNJl8lYm4vb2VDPzxZJUsrUC1GYTRdXFNYSmI+PC86PXFBXCE2cEZkXT9yQGFsVzM3ZkJNSkUwOG1oJjVORDgzWWwxPiNVVEQiJEFXTFVwIVpwP2onNStIZkNeTTMwSV1sJGlxLy1TcmsoY1R1UVVfIls4IyI1TiwtZDcyPiJEdVYpQG8iMmpMYV1mYShGZldjaHFhJ24uS21BT09eJDhyLy1XRFpfOkBcSTpZZFpWIWNiQUkvNDIuQHVkaDA6SC8lSl1bLEcqRj8/P1ZgPGJBSSViTmNdMzYnNWQ3PEhGWEYoZE1GKkBIJ2kvYydJREQsNC9lYlQqZUNDTSlLOEFkL0pLKjQ/bnU/aiRyOi9EVjpsTklidD40Q20yY28zVTErMWBvMkchdUBjOzBiQS9jVHMjO2RbJD5TZTZIZ2hUSTNkVElba2xBJjZkJFZkZGhhUjJNWS8oaDUrX0UoPidhbU5UKF5TSFs0LFJvVDIqYV1yQUJoO2VWO0I2JlguZk5vI0QuO2VuXWNCRU85PCc3OSYtYDk3MWR1TVYpU0c6XTE+ZWY0WTFccjtucyFbIiwnJzYjN0RfSExZXy9WL1RHOGhYSWFIJWw6XVgiLExpQ0dTbGhiN1VAUyhabywlOmtndD1BZHJGcWhkaXVINypaaiEkKjgqVDQqa1Q7MVJARCZVOmBEb0FUKTdCdEk9XHFDUkpVJUtAKj9kbXEjPiNxcW11VC9iUF41OydpPzYkZ1QuKC9VYCNSKURmRzxdRUY3cmVrU0pAbipIQV5bJlNNWyxpSWdqKScsWDU2LCRuWi1tcWg9UEZPcV1QaS8nY3QnOF9zcmwwQk0paChXL3RPJVIrJnJGXyw2PkU2NzZQSHIuLUtaKE1hXTpsbWU4OGwsS1doc1JZWzJbXklbdUVSVHEnQ0hbV0BKbFNvcUZIVUR1cCJBI0kpZF0pLEgoS1dRJkNGKkVrNU1CPiUrKj9eUGdEMz8nYzpGYVkkMl0wMydSYSRWS15wOVRQYGJRMUxbcU0wdVpBSkJkcWlTLzZDNSRXZC5KYksjO20rcXFORHFWbS5wSEk7V15OYWItY1tMPmZHITZeXm5vPWhQVWlycFMtVjMkOXJJLCwvNXE9OiwxQkFYKmZWcj1NYkEhIW8lVyZvO0wwPWgpRzRJajdba2Ekfj5lbmRzdHJlYW0KZW5kb2JqCjE4IDAgb2JqCjw8Ci9GaWx0ZXIgWyAvQVNDSUk4NURlY29kZSAvRmxhdGVEZWNvZGUgXSAvTGVuZ3RoIDUzOQo+PgpzdHJlYW0KR2FyJjs5NWlRPSUpMW4rSHEuZz80ai5tLGpLUVBVL19iZWJrVi1NW3Bxa1pXVS1iLyRhX203P3FUNCFzYm9oTkw3IixaKCckMCZGYTRQTExEMiIkJCFLai8yNVNScGBsNWo8NWFrcXE3PS9uXD08THVSQzE2a3VrK3RSPU46OnNGPUM7YjYrbCErczdeLXFXLFxPTkhZSF5VbXI0TyIzXkE7TzhyQF07Y05rQSRcOXIiZEM7K20/JlkpcjZUbTFkVGtzNU8zSjhLPj9EWDE6OFpTNkg/MlRnR0FQUGkmKF0xPURMOGVIU1FTZjMvXTVjVmwyXGxrYW1fWUZNOFJraDtdMFMxbjNNKjZSMlNFWWwtWChGMkNwIUBbalZRUkg/cks6aGkqPy1QJz1VcHMiV2Y+TytUdDQkWWBsXDMkSDtQTDF0aVcwOUcxPHFVUWgqQ206YzF1LU1dSFZXRkQqXlszRkgoWmJCSDViJlRkKEA7Q2NcPD9EOS1ydGpPKCcpXy5lQkVyM3IoUStbQy8jVGU7KmYjI0AuJjxcVFskLzBMR2xlWUkmR0dTdTAiOmFMMlN1ImdJYUhhK3B1MmMtWWhlPk81VlhZM2JcREVZOm1bSF1JJkVXNSlgJ1I+ayxgSD5XOilmZillPUk0WWg4Pk9xUmdxJG8iOi1ibzAwanRVSVdmQylGPjF1ZC1hJ2MvNHMhOSJVNUFIfj5lbmRzdHJlYW0KZW5kb2JqCjE5IDAgb2JqCjw8Ci9GaWx0ZXIgWyAvQVNDSUk4NURlY29kZSAvRmxhdGVEZWNvZGUgXSAvTGVuZ3RoIDI2NjYKPj4Kc3RyZWFtCkdiISNdPyQiYy8mcTBNWGZMTWJzN2UnM2lkbF1VaGRcUG5fWTNmcTAxbT1VWjNha0slPnVGOmA0UFxoQyYsNjAmW088VChWZlRuOC9UTVpDZmovIlsvMHAmMzgoPjtPJF9saDlvXmJeQTZJUE5ZJC1iOzRUQCpIMWtjWjVZQz4sJSgualtWTjB1WUFnQD88N1xLc1FBdUZ0bSdZUiRFZGxLJCJUb1FyOFQ7J0pqakVeYCFpJHBzMyddcURDYHNkOkhMYGswJTo5PCZANl5Ta3RpKC4rOVo4LiclQjdvQV0tTl0pRytMNUMjTURpOSk3Myl0UTZBLVIsVDlAYTdOQiFSPS1eQl1oXENGPCgxLWcnSylOQG5CPXA3XmtWNGRrXChrOmAuaGYtJmRoY0g9Ml9nKUlqSmxnKE5MIUA5YzZgMUQhcD5CXzswIWpubU41MUo0XVpbWGApYU4vZSdIKE83XDRMRSpXSTJOdVAtbDBHRD9lYmRQW2BTOFQlZSs2cig6N2FeI1I/VVRDN14nYkBCTzskXydPSV9abCFKTkImWz8tJycuZjxsOi5BPUYybEdpOm1uXzdhO2w9YUgyMzBBLUY8PmEpK1ExZlg5aCoqTTJsYWxEXUwkUXBaLGcoLjhTVTFuUzxCW1dhX1ZZXzNnUTxZS3FDJ18jZWojZzNVTzxiRUZKT3NPa2xaaWhFLnBLaGBuNm9IYCouQC9aSz48VW1UZ3JsRVdQdF1yYl5PRVU0NF5KanQ1OkFYOyxxZSknNlNCYVM4WzEjPSNBVS5CNC9CcFJvKVRlWGhIWCdqVixiXW5PKEkuWXAiakhzbis6T0JXWDsoOi42LEklOHU/QmZRYGUqIixaazY4LUYkZEpzR25uT1IkPjlrMUUkOmNyXiNfdXMzIlZLY0FRS25TIjE8dGshRHVnVCk8X2lET2YxXFU4Zy5IPzFMIzFVQkVMQGtoWlgpQmJVZyhmckE+NSReZEwnNEBYc2RgS1g7RVdWLDQ2P1JLWCI2JChjJ1x0TklWN0YiQTJsW0E/OThxZGRwWEg2JHBEMDhpaF0zLWU/RVtJY09dJytfLUxKJ24nLTpAcElBdDE+LVIqSmhkbmlCWVk7MDdTTGtYWEw1PElTSmxJJGhwRm5kXiIzMTomNG5VTE5ibFFvaixkXkQoYC46YFhNITt0VEZCaik1Ml85Kj5nVUlxL2RKayJDTCM2Q0BwRjVWWUw1ayYtYEY6a19MQW4laFxQViEyNzcjKVNULT1zQVRfQWtLYWxgYj46LzBWREtjalg8VyhCLE1aKUF0JGVYcUNzNjZKXzlJcihNPFZSNVtMKUBOIm0wSFxPOTtrbUxGYSFNP0YxU0E/XUomMV5ZQmBwS1ZfVHJnWUJHPlY9QU9bP2VzIyRrJzsxTl0iRjAyNy1zJlA0U2lWR1gwTFUqLSRTRl9QPidUIjclOFRCNzwjXWlTR3FHPDhMRzxcYmlMc25zJjFlVGtaK14razhjS1ZNQU9gZG5mZXRpa2tjcCtBXSVBJy5TP1UpUz9zP3UnOHEhRSdRLGJiSUI6LGRKa1VgXUhcazg5IjYoY21lPlooQGxoKXEvUmJOcSRcRzlFOU9acTFgMlBXRldoLipIUFgxOTJLMF8+dUpAPDJJXCJkdVZWW0tPNDBeV2QhQEgwMjc0cSFCJUgmaGh1ak0xVScmPEc9ZTRMMW1vWkdoVzxUOENqZE8mRDsrMitjIkQxVEI2OUY+ZysnZC1rVHFOZD1hXWNeU3JrYkVRWThuPCtwWlAnND9QNmYmckkuQyRpNFkocDdbKClKJ0A9Q0k5cUxwPS1Ub1gic1pANz9ubkdISGlxTFNFWyVVZztvUFFYP2poRTBBO0tBWm5uRCpMQW1VRCIvYlVyPk5JIVx1PDhFaj9fNmYlWVw5QlUrbnJUZWZYME8sST5zRyV1RW5pLmpCJCQhcCkkajYpLVplYUlVYWk2RW0wRUpAUFYkP0JVI2NQQFIhMTxTKCxvczw+YTdLSXFFPzEqWV9lckw/PlIrW0FeKlV1MlJXRzFnTjoiWDBcYFUiayolMG9nRWpcNVxtZk9cPiFqLHJsKVNINDkiRzxjYylMIl8tRE4+ZS1lInFzZy1AKlNNUmMqMGomJUZtYD02cEphTHUwNkBXPklLPVpeQFtCTjJoaiItKSo/JUo1ckRlZU1uPzdsS0lDYk5kNDQsbGEwcEZjPEE1bkBkcFxYT1AvLzU0b1stWyk+NydGMEBbT25lQmBDLkshIWhvREtWNDNXI2InWUBWZlErKjdXIV5sKm8tYypCYGhXYy5zOTc+XHE7TDU0KCcwQnEqS0dOXkBJX1paU25XLmMxRGFday5ES2RsM3BdKDlgQTFiU0I+NGVZKUleRHFuPmcuPyM2QDRwPF4uVzRsa2dIMz0vRDtZJWZFRltfaVNgMCFOKy8pW0NEOHIvQjs+USM8XHQ4blVvRDhZYGEhXz5vRyYhISRbXnIoTl46MFUvT1ojXXQ5UFdETDcwSmZaJVp0PVBJMXU6XVlIalxIY1dQVHNPZyNWcXBFN1VoIU1BPydCRTpbWzciLFlcPjw4dVMoTFg/X0BfPGA2VGAnK0MlciJCbFlYKT9gPEpaRCtqVVErUklRWGpsZ0smRjNmNTY0PDRQa11QSUxPbGRmLXEtN3B0X0stOmBTWzVyWkJqRkozZlA+L0hCX05oKldQM1VAXSdURjtMZD9kUU1YRE9uOiwvVklgViFkb2ZRbFkiZWs/P0RhYzxxWE8+KXEyalphTWtVbzVPSGQyRG9SIjAtazguT2U7QmRWUTBRPkEuclJIYk8zYiVgdWR1OVRjUyM7YlNLQVgqWitsPismcj5RXmlKcW10Ky1SQnMjbkE9bSxJaypRYy9XNidIIkInTTNeVFBfSy8zZVRNLzFZXEBZSkwxUCdzbFhNck9PKUswbiNSST9GLitycyQ6LUByLCZtbiVLNS8hIyxxIlVKMmYqWlJja2xebGUoKThKMTtvV04kSFokSThCJnVuMytCOzVVMWE4T3EwdT1II2M1YURzNWskOz11bEczcFA7RDY9OmZmXUA0X25oLiZBQFkyJyxobiZzJydLRzhTPzg7NjN0JjEvbGtISzpgNylQYmpUSTRtIkdjXygiQSo7ZTpOJF1qaVluZWk5Tz5hJXMucU4qP0FyZ2FHbTsjIzQ/L0NZVVY4KkohR3JyMjUuVipQR19uKClBPWhYN0wwN0g5Q0dLQV9HTDkxJUgkUVRcLydWLGJhPlcpcGgoRnE3Ri1NbTs5TURiMy1gWUghKEEhblo9LW0oQ2BkJWAjJ1A7OiszRVRvWSgvSWpgaDNiRDhTISs0LT1qMEYrNVJCQGRQNG1aP1VILzViakdkQz1HcjUkcG1ySFc/LVpBMDpDL1tfNEhtOyokRjZcL1ghMT8+THR1cFtrcVZPK0ktTEgpTDhUZVxmNmtSKk9rKy46Xm5tczZfJWQsdEhDOlpZRkspPUdyPGVLbnU1YV8hblFkQV1uWG4ucjoiRipXNkwvXilxTH4+ZW5kc3RyZWFtCmVuZG9iagoyMCAwIG9iago8PAovRmlsdGVyIFsgL0FTQ0lJODVEZWNvZGUgL0ZsYXRlRGVjb2RlIF0gL0xlbmd0aCAxMzIxCj4+CnN0cmVhbQpHYXRtOmhmJTctJjpYQFxFQSVFYTAnO3F1QF4vKEBCWFclY2gpJSRvKEJYaE4xUEgwPUVbPGczcnFkXk1NM18nSjo1OyxUVXVVOS5HOT86YycqRisuTXVRaXRKNnMsXmRyLFgzTFcnP0w4TCxrZEp0J2FDYkQ8UWwkczBpSychdTE7OnJDWDVXbCVoZClPNSEkQUtXYSdabldPSVMzdV0maVJOYGRCZGo5ciU5TSE7NGVvbWJjOkAyQTR0IylXcT5LJ0JmYmtrTVA8a0JqaGktY2QwUTVGWmpYc21MLUdtITxuWj8iJlYmSjdMMCYqRF9cVDF0XV87WzclPzlOQThQUisuUjNWbHBSPE1uJkcxRjNAOFo9aERnZkBIUCZrMCtBY1cnIjZWX1VaSFE+WURxSTU3Z0JwYlBbIyczIV8vLDwoL0orSDJhZWUrN2JdT2pjQWlCUDZUITFsVGEkXD8sLmA9QFs8TXA9PTZlKjIna3BnNShuYjpHajt0JUUnW0FiIkgiRElraGIvXCIzMD1KQ3FxM0ZPclJkMk1QKHQ8QFEiZEIhW1pOPzQ+LyE1SjxIdV9iJ0dKXCVbPyMxTiM0V1kuNGxzaXFQQmkxTERQTilGaUptajhkQi09ITdGS0c5MitYSzBFbD4hNjslI2AjcCpPISxwJFdTKTlTPFMxY2UpTGU0V28uPyU9N1ljOUxqbkglW1E/V1FCWyRNVjwkbTFjR2QwSU5LLio6VS02YGZHcD5xIUhWTDpJNF9OSitmWF9qM19kZTJFU19hQEUpMiRfVm5nPSw7a1ZWaFliQ2IpLWxqIWsmNDxHJTBuTFtIMl9jSjtxM2QnKCxVPjdGJGxeKm8mQ2E5MldZSDohYkxmLDojdElyMyw4aVJWXUI8NWorXlcyZFZEQkRRIy1CVjVETl5SQDtxN0BaS00nKDZKUFpuWTFWPjYvQyFmXD5jNTF1dGZuXUI0Z1xESyYuRm9CJzY8UkRRXz4nIi5bWC91RVg/ZT1kZ0QzbTkyOWJ1XnMoQ28zRGcnYC9cLT51XFwjViQoRkVSJD4kUU1HMkNVPU4jS1xFSF1qbEtBV21SaC81TygvTENlWklsQWc3ZD9CUVRPKWkqSzteaXFBJVw2Lm1YJXVIQmlhcy5WMkFKa1RHdCxrUThTYFEmOXRsS3RuPV04OG9RUmk+Sj85IUsrLSpFKk4zXl4wOVhOIkBOUUFaIz1nWUYuKkw/VVo/bmEoSEhGYzM4U0crQkw/ayk5VCJUPWlLUGlwTmMxaDZrO1chbkc7bSMibWhYQypTK2xDW1F0bHVWJVxLISQ4Km9kQGFIWEFtcTk/UDlEIy8tNCRZRzhMWT9rU103QFg/blluXmFqLD9BZTc9byxYYisjVDY1cigyZ2IwTTJHVm03NUVWbWZEQUlKSC1WaSYtMmM+T0BnXyRFajgqKW0tRFomYmkibzAodDR0SSVoXWpYcyRvJXJqPUo+YEglaltUXUolO3Rac2prZzk6WDNhYihpSEhDO15BT09dRVw+KkRWZl4/ajlKbGYpMi9hLGZpVzo0Wk1ya1ZFaF4tPD1SSyxqNksyTzMpdF8oXDlFcCZIOWxmVWF1KjE/JUpWWGA3MFImbFckcS1sUlhEZlA2TTorI1BuU0pSRC1fUzcyZj0nJSxCPydeL1BnJ3VHQzBrcycoMiZqRjU1Kl5HRicnKlMmZm0tU2UsTiJsTmIyWVxJZFIoXCppNm1wITUmclVPTj0tbj9kLX4+ZW5kc3RyZWFtCmVuZG9iagoyMSAwIG9iago8PAovRmlsdGVyIFsgL0FTQ0lJODVEZWNvZGUgL0ZsYXRlRGVjb2RlIF0gL0xlbmd0aCAyNjM0Cj4+CnN0cmVhbQpHYXUwRGdNWWI6JnEvKS1lQjlKL0whOFo3PCFONW0sYF5uJmE3YFdQayFfUF4sMjVfJjhbYkxjRkBROSs0azgmQVo5PEFpJGxmQ1xQTyw7NUZtO3FrIXFQanRcR3UvWGtqPVc2cj83Z1ZWIS88bFludG1dUzUscmJyY2YwWmhiNWdaOSNIYU5LPy91S2lyR18xVz5HP0ctazQ3VTghdEhZYUBqRzIzIW1ZVz89RCNiQ0YvTmFSVD9YKV8/T0FiOSQwJHJSN0hfMmMhLjVcOyZbdWdDJjNnZHMnamB0ajZzX1wyIkM+LXFmKjw8YTBiTGE4Q0ImS21iKlkiNSNVSlAzVihWZFBcYFNWZFUzZC4zOzdWOFM4MWJlZzl0ZmNKXWsnWVtQPU1SW01DLWljQlpJNDAqci5XMG9NNDUyQ11NYmRuOChbUCcoN1tRJD48LWU/KDJnNXVxJFwoKnNdWTwuLl1SWkclIVpfRTJwXjtQLVsxNW9hRSxsRmFWQTdZdUM+L1xdPEwoPkRyUGMzPDxVJVArWG5dVT1tVGJwRkFVQ1BiUlA3Y2gudWIjMkZJbFsiQjtnKyhqZTxGIXVwWGBSKDRgKEhOVEcndWtpSWhaTE9GLzRtRFxJQyQkbmxAPkEuO0dNQGI+dTFWaltOOyc/NVAvQzx0OjA/aEo/YFohUCFgTiRjTnRCbU0/KCVqNy9ZU0NudDJQTShjIUxPdEM0ak1aR041QT4tR04wMycvR1YrXE8uMF1GVV8yMyhMSU9vU1pIWU1eJDhaLj1tOSlLOUVsQ18uLzxUcmxoNUBHWzFeOTkvJEs6Yjs4XVRwVjBXVUglIV9DYkpuTCg0P1REIWhBRmBGOmpbKVFvNHRVcXVpcyNcSCNnQFc4NGA2VUVNNGNkPEo+RGcvTCZzO0Q5Jkk1NVkyPW9nYUhEYG0wUTUyWz5pbVAmMWY1RW0mREtiaDlzajBCO1lGXkAkNnNucDdebls8Jj0xcSguRFU+MzIyNFloXytJTSZIRyVpaCprUG9dXlo7VklAZkNkKic5OzBLWSdUI0RxRiFdLzZYW11BVmhHW0EpYDdHci5QVzFxamZWKS4tVl0mPVVMRyZvXyVKRSs1OTtkRFEmZSNOZU5iUGA4LkpWVkJuKUgnXVJDUW8xU1FIdDQrVi5USiZAP3E+N003VG5IQWJha1I+QThTKTZGWElNIztxN0JaZ0A0aWskPXUxRT5VOTI3aF4oQFZKb183TTpLJXNKcWJucy82TnUoRDBMWj9xKCxbMWtqVUxxcyUrI2AhZ19kTCNCaSgoMFRUK2M0LiEqSHJhMWUtc14yW3QqbTVALS1IaExtYyNZUiw5PFdhKkFaVlQoLWMoX1UlWEwhITBAX1JTRmEsZ2JzVEtdZTtmLiQ3QGFPXUtcTzA2RGZlM2VRPlJeb0daNSlZLm9DVUpTPFdmJWZAPSQpQ3NFcUkkXktsT110SmttXFBKW15xVmErQE9oN2Nea1BZQCkjclUhVVRzM1FWc2ZqRG1tOi5oVVtlVUM2bSdZKVldYChxVSs8PmphbktnZm03bz5GYj45VSdQQ3AiUyNZLCtXUlVscVgjXGBkYzBpJ2hRYFpdKV41XGMkKSVnUFZuRCdVPFtTRTgoTkFhWDJeVTBaSVoqY2k5VjhKREcsNWR1YURTXTphKExKa2MkakVOMF80RnVrMGRvWFBmUSUqNVBmQF8jT0s6c3JHNklLXzFjJDJIcVtXJVpjVT5NYk9zIS1qbjNfQ25jIVEiajRTdEVJLmhraDw7cmkuTFRcczBLNmhtLSJvX11Ob20yTlkrKFZFUEciNzNPNT9SWXEhVjZCOmhVVU0rYTNpRyc/LWUoSDRYYUxkP1dHSVNCOCJabnJZPz5IRytAakBHPU9Eb0lxcmdWJV1fMHI+cXImUU9SSjBsMXJZWXI2JSVdPDZGI2RIYDhDclspMmpOdTI8PkhxLmxOJHFNYD1wJENPLkkxNiwnIjRTYG1cZT82VlsuPWBMazAtcDNKaFBbbitvaiZlYj5xXyw1TjYkNkUrQGFIUS8oaT1VdEwka1tQMWh0TkhnJkQ2SmcjPTZCVjhIbWlJQHVJdXBCPCYjYTcyNkdDLzxEbUssRSRkLVBrRl0/NFhVMlpFLUQpWGNhYCkwQHMzc2FySDFnMiRdO0RcIydaUU5cLUVENDlQOTc3Pl8haGxLOFxDKlM3TCEhY3NRPlxiVy5YLmpXJ0hGcXE8ZFdjKjMzVCdQK3FyTjohYW9SN0hyZltBLzdYXXJjKCI2NydCMGBtbUQnOkhRJT5ycHMmcDgyNkFqLkhJYDRjcy5eX1RuMiZmIVRPcHI1TlJlZ1lcVmQqWkdIVjZSckRbOjYick9KPl9FREFxLGxZXVE4LzJUODshQyMvSiRvTEknK1YkY0N1SGpcXzhFbFQsb1pxYDtqbEZPU1cvSEVfNipcc11ESU5IWE05MmsmJHMpZkc2LD87UFBUR0Y6JHMoSWRhX2c3MDFqZ0Q5RUE5anNGZWdzSjdSNGg/ckstS1hKUSliL2RaN2U5LHJkX1ZjMmBoQiRdNyxVdU9YbVdcMG4wU0RXaygpLC1vWVk1NWc3cVRBUTRpcFIwKFw/NVElKkE+RWR0amprKCMvRy9UMFkpYUtDcm8qTSxfWkdZdVgpQTw0LlI7MzZkU0RDVSViOFBfdUJhNGY0VFUvK3M2Lm9mYGBoSFNKNUBWJTlfSlxkTmJrOW1KbjRlI1xQKiI2RCorZShESShcVjU6V0hQYERFWidQYyluLExranIkRlwwLF5CKCJZMCMlWlg+UiIqJFROWjxpODhxOCF0ITxcMGU0aXBVIzVXW2oobVxmTjItSUBsTjAzMlYtbkk9ZTBjbypfXkIzUFc3TDAhM0cuNTw4dXAockEsU2VwRzpwST9gSEZHYU82a0dGcEdyLDE2NyZbSzhHbjhbPVZWLzhDbm5nR3NjbVokNVU4IlxHWGxfclE6JlIkJ1phbTNsZyVaVUIzJiRPbiNzWSJGM0A3X25sUCNEaFkwJWRrRm02MCVucixdXS49cTJzZWpAYVhFKCEvbDgyMkc9TFpuUDtPOyM6NC0pMlR0ZD91aUdYZHM9O2cjUFdPbnE3VTksMzBLPFI7cS9hOG8iKWMwZyJtc2pYWTRHXUVEZSQicTtGWF1vPmNrTyY+TklYUEBOLD0kNHEhMCRNMyUkbnVQcSNiPiw0bkE9TTM6ajRFWDdsU2VFQTFbP2RkVGJxJjtAYFQ3WicnIVtgI2Q/a1o+OmBbLiFeKV82YTVCMU1HQF9UQyhWLVtnR0s/Q1ZGPDFgTjdHImorUTg2X2dPc2Q+Xl1ya1wka2YmOC0iPHJPLWBdZzgxWmNhQ2pgYypNU2BmPDF0InFULXNINDZMQikpUVVZMUNHSSM9YGg0MV4/KUpZO1g4TGBkTTo+OCgpT1ZIVSNMak4nMWhBWV51cDtIb28rSWZQIzE2dT9wI1M0V0Y1R1opWzdmfj5lbmRzdHJlYW0KZW5kb2JqCnhyZWYKMCAyMgowMDAwMDAwMDAwIDY1NTM1IGYgCjAwMDAwMDAwNjEgMDAwMDAgbiAKMDAwMDAwMDEzMiAwMDAwMCBuIAowMDAwMDAwMjM5IDAwMDAwIG4gCjAwMDAwMDAzNTEgMDAwMDAgbiAKMDAwMDAwMDU0NiAwMDAwMCBuIAowMDAwMDAwNjUxIDAwMDAwIG4gCjAwMDAwMDA3MzQgMDAwMDAgbiAKMDAwMDAwMDgxMSAwMDAwMCBuIAowMDAwMDAxMDA2IDAwMDAwIG4gCjAwMDAwMDEyMDEgMDAwMDAgbiAKMDAwMDAwMTM5NyAwMDAwMCBuIAowMDAwMDAxNTkzIDAwMDAwIG4gCjAwMDAwMDE3ODkgMDAwMDAgbiAKMDAwMDAwMTg1OSAwMDAwMCBuIAowMDAwMDAyMTc2IDAwMDAwIG4gCjAwMDAwMDIyNjkgMDAwMDAgbiAKMDAwMDAwNDU0NSAwMDAwMCBuIAowMDAwMDA3NDgzIDAwMDAwIG4gCjAwMDAwMDgxMTMgMDAwMDAgbiAKMDAwMDAxMDg3MSAwMDAwMCBuIAowMDAwMDEyMjg0IDAwMDAwIG4gCnRyYWlsZXIKPDwKL0lEIApbPDI0NWZkYTc4MmYwNzhhY2JmODU5ZDc2OTgzYmYzZjYyPjwyNDVmZGE3ODJmMDc4YWNiZjg1OWQ3Njk4M2JmM2Y2Mj5dCiUgUmVwb3J0TGFiIGdlbmVyYXRlZCBQREYgZG9jdW1lbnQgLS0gZGlnZXN0IChvcGVuc291cmNlKQoKL0luZm8gMTQgMCBSCi9Sb290IDEzIDAgUgovU2l6ZSAyMgo+PgpzdGFydHhyZWYKMTUwMTAKJSVFT0YK" download="Influenza-Centroamerica-Grupo2-Salon203.pdf">
+          <span class="dl-icon">
+            <svg viewBox="0 0 24 24" width="20" height="20"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 19h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <span class="dl-button-text">Descargar el paper (PDF)</span>
+          <span class="dl-button-tag">.PDF</span>
+        </a>
+        <p class="dl-note">Grupo 2 · Salón 203 · Econometría · Segundo parcial</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide" style="--gx:50%;--gy:100%;--gc:rgba(139,124,246,.14);--an:flipIn"><div class="slide-inner wide"><span class="tag-eyebrow">Fuentes</span><h2 class="big-title">Biblioteca de referencias</h2><p class="sub">Pasa el cursor sobre un lomo para abrir la referencia.</p><div class="shelf"><div class="spine" tabindex="0" style="--bc:#33C6E8;height:88%"><div class="sp-t">OMS · 2025</div><div class="sp-b">Organización Mundial de la Salud (2025). Gripe (estacional). Ficha descriptiva, 28 de febrero de 2025.</div></div><div class="spine" tabindex="0" style="--bc:#8B7CF6;height:100%"><div class="sp-t">GISRS · FluNet</div><div class="sp-b">OMS. Global Influenza Surveillance and Response System (GISRS). FluNet: base mundial de vigilancia virológica de influenza.</div></div><div class="spine" tabindex="0" style="--bc:#F0A63C;height:92%"><div class="sp-t">OPS</div><div class="sp-b">Organización Panamericana de la Salud. Situación de Influenza — Región de las Américas. Vigilancia mediante FluNet y FluID.</div></div><div class="spine" tabindex="0" style="--bc:#3FD6A6;height:84%"><div class="sp-t">Soebiyanto · 2014</div><div class="sp-b">Soebiyanto, R. P. et al. (2014). The Role of Temperature and Humidity on Seasonal Influenza in Tropical Areas: Guatemala, El Salvador and Panama, 2008–2013. PLOS ONE, 9(6), e100659.</div></div><div class="spine" tabindex="0" style="--bc:#E8748A;height:96%"><div class="sp-t">Grupo 2 · 2026</div><div class="sp-b">Grupo 2, Salón 203. Base semanal consolidada de FluNet y script de estimación en R. Elaboración propia para el curso de Econometría, 2026.</div></div></div><div class="slide-footer">Grupo 2 · Salón 203 · Econometría · Segundo parcial</div></div></section>
+
+  <div class="deck-controls">
+    <button id="prevSlide" title="Anterior">◀</button>
+    <span class="slide-counter" id="slideCounter">1 / 4</span>
+    <button id="nextSlide" title="Siguiente">▶</button>
+  </div>
+
+</div>
+
+<script>
+  const deck = document.querySelector(".deck");
+  const slides = document.querySelectorAll(".slide");
+  const counter = document.getElementById("slideCounter");
+  let currentSlide = 0;
+  counter.textContent = "1 / " + slides.length;
+
+  function showSlide(index){
+    slides.forEach(s => s.classList.remove("active"));
+    slides[index].classList.add("active");
+    counter.textContent = (index + 1) + " / " + slides.length;
+  }
+
+  document.getElementById("fullscreenBtn").onclick = () => {
+    if (deck.requestFullscreen) deck.requestFullscreen();
+    else if (deck.webkitRequestFullscreen) deck.webkitRequestFullscreen();
+    else if (deck.msRequestFullscreen) deck.msRequestFullscreen();
+  };
+
+  document.getElementById("nextSlide").onclick = () => {
+    currentSlide = (currentSlide + 1) % slides.length;
+    showSlide(currentSlide);
+  };
+
+  document.getElementById("prevSlide").onclick = () => {
+    currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+    showSlide(currentSlide);
+  };
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "ArrowRight") document.getElementById("nextSlide").click();
+    if (e.key === "ArrowLeft") document.getElementById("prevSlide").click();
+  });
+  document.querySelectorAll('.fc').forEach(c => c.addEventListener('click', () => c.classList.toggle('flip')));
+</script>
+
+</body>
+</html>
